@@ -1,4 +1,4 @@
-#Author: Luiza Freitas lufreitas145@gmail.com
+#Author: Luiza Freitas 
 #Objective: analyze data from master thesis
 #Date: 07/04/2021
 
