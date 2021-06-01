@@ -1,4 +1,4 @@
-#Author: Luiza Freitas lufreitas145@gmail.com
+#Author: Luiza Freitas 
 #Objective: assess uncertainty of estimated hydrometeorological data
 #Date: 07/04/2021
 
@@ -94,7 +94,7 @@ sink()
 
 stat.desc(hm_format)
 
-#####calculate RMSE, R² and MAE ##############
+#####calculate RMSE, RÂ² and MAE ##############
 observed_P_SENAMHI <- data_num$P_SENAMHI
 predicted_P_FLDAS <- data_num$P_FLDAS
 postResample(observed_P_SENAMHI,predicted_P_FLDAS)
@@ -186,7 +186,7 @@ ggplot(data_num, aes(x=ET_SENAMHI, y=ET_FLDAS,)) +
 
 ########### UNCERTAINTY GWR VIA ERROR PROPAGATION ######
 
-#log Ugwr = sqrt((Up)²+(Uet)²+(Ur)²)
+#log Ugwr = sqrt((Up)Â²+(Uet)Â²+(Ur)Â²)
 #Up = annual standard deviation from log of monthly precipitation series
 #Uet = annual standard deviation from monthly log of evapotranspiration series
 #Ur = annual standard deviation from monthly log of runoff series
