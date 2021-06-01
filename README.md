@@ -1,0 +1,1 @@
+Scripts in R used for statistical analysis of the master thesis project "Using remote sensing to estimate groundwater recharge in eastern Bolivia and its correlation with deforestation and fire"
